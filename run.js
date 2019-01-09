@@ -10,7 +10,7 @@ let firstTest = require('./tests/sign.up.by.email.test');
         platformName: 'Android',
         platformVersion: "9",
         deviceName: "b78ae403",
-        app: 'C:/Users/User/WebstormProjects/untitled/app-dev-debug.apk',
+        app: '/app-dev-debug.apk',
         automationName: "UiAutomator2",
         appPackage: "lu.f4a.app.dev",
         appActivity: "com.bba.f4a.ui.splash.Splash"

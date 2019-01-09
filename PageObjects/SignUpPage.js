@@ -34,7 +34,8 @@ class SignUpPage {
     async finalElementFounded() {
         await this.driver.setImplicitWaitTimeout(10000);
         let element =  await this.driver.element("id","lu.f4a.app.dev:id/got_it");
-        let elementText = await element.text().then(resp => resp);
+        //let elementText = await element.text().then(resp => resp);
+        let elementText = await element.text();
         console.log(elementText);
         assert.equal(elementText,"GOT",["failed"]);
     }
