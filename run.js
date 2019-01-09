@@ -10,7 +10,7 @@ let firstTest = require('./tests/sign.up.by.email.test');
         platformName: 'Android',
         platformVersion: "9",
         deviceName: "b78ae403",
-        app: '/app-dev-debug.apk',
+        app: 'C:/roma2/Appium-mobile-testing/app-dev-debug-1.apk',
         automationName: "UiAutomator2",
         appPackage: "lu.f4a.app.dev",
         appActivity: "com.bba.f4a.ui.splash.Splash"
