@@ -13,11 +13,12 @@ let firstTest = require('./tests/sign.up.by.email.test');
         app: 'C:/Users/User/WebstormProjects/untitled/app-dev-debug.apk',
         automationName: "UiAutomator2",
         appPackage: "lu.f4a.app.dev",
-        appActivity: "com.bba.f4a.ui.Splash"
+        appActivity: "com.bba.f4a.ui.splash.Splash"
     };
     await driver.init(desiredCaps);
     let firstTestRun = new firstTest(driver);
     await firstTestRun.runTest();
+    
 
 })();
 
